@@ -1,0 +1,46 @@
+.calculator{
+    width: 350px;
+    height:500px;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen{
+    height: 10%;
+    background-color: bisque;
+    text-align: right;
+
+}
+
+.buttons{
+    flex: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+
+
+}
+
+
+.buttons button{
+    width: 25%;
+    cursor: pointer;  
+    font-size: 20px;  
+}
+
+.operand{
+    background-color: #FFAA00;
+
+}
+
+.operator{
+    background-color:#00FFAA;
+}
+
+.clear{
+    background-color: #AA00FF;
+}
